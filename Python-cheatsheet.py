@@ -1,9 +1,15 @@
+import math
+from math import sqrt, floor
 # STRINGS
 print(f'Apple has {len('apple')} letters.')  ## Считаем кол-во букв. !Output 5!
 
 print('APPLE'.lower())  ## Делаем все маленьким !Output apple!
 
 print('apple'.upper())  ## Ну а тут все большое !Output APPLE!
+
+print('apple'.count('p')) # Считает конкретно то, что хотим (2)
+
+print('Hello world.'.replace('.','!').replace('l','h',1))
 
 
 # SPLIT
@@ -42,3 +48,18 @@ print(int(3.7))
 
 print(float('5'))
 
+print(f'Корень квадратный из четырех {sqrt(4)}') #Корень 4 (2.0)
+
+print(f'{floor(2.6)}')  #Округление любого числа в меньшую сторону (2)
+
+print(f'{math.ceil(2.7)}') #Округляет любое число в большую сторону (3)
+
+print(f'{round(2.5)}') #Сам решает, как округлить (2)
+
+print(f'{round(2.555,2)}')
+
+print(pow(2,5))
+
+print(7%2)
+
+print('Четное' if 7%2==0 else 'Нечетное')
