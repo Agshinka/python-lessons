@@ -1,4 +1,4 @@
-def rhomb(d1,d2):
+def Srhomb(d1,d2):
     return int(0.5*d1*d2)
 
 def sin(bc, ac):

@@ -1,8 +1,8 @@
 print('Давайте я вычислю площадь прямоугольников! Введите данные:')
-a=int(input('Ширина:\n'))
-b=int(input('Длина:\n'))
-c=int(input('Ширина второго:\n'))
-d=int(input('Длина второго:\n'))
+a=float(input('Ширина:\n'))
+b=float(input('Длина:\n'))
+c=float(input('Ширина второго:\n'))
+d=float(input('Длина второго:\n'))
 s1=a*b
 s2=c*d
 if s1>s2:
